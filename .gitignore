@@ -1,0 +1,39 @@
+# -----------------------------
+# Python 관련
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 가상환경
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# -----------------------------
+# 데이터 
+# -----------------------------
+data/
+!data/.gitkeep   # data 폴더는 유지, 안에 있는 파일은 무시
+
+*.env
+
+
+chroma_db/       # 로컬 벡터DB 저장소
+*.jsonl
+*.csv
+*.xlsx
+
+# -----------------------------
+# OS/IDE 관련
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
